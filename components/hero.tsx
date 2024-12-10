@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="bg-blue-50 md:flex-row flex-col w-full h-full flex items-center justify-center gap-10 rounded-2xl">
         <div className="flex flex-col justify-center md:w-1/2 w-full gap-10">
           <div className="flex md:w-3/4 w-full flex-col gap-4">
-            <h1 className="md:text-6xl text-5xl text-primary font-bold">
+            <h1 className="md:text-6xl text-4xl text-primary font-bold">
               Take a moment and pray
             </h1>
             <p className="md:text-lg">
@@ -57,7 +57,7 @@ const Hero = () => {
         <Image
           src={"/prayse-app.jpeg"}
           alt="Prayse home screen"
-          className="md:w-1/5 w-1/2 md:flex border border-[#2f2d51] shadow-xl shadow-gray-200 rounded-2xl"
+          className="md:w-1/5 hidden md:flex border border-[#2f2d51] shadow-xl shadow-gray-200 rounded-2xl"
           width={1179}
           height={2369}
         />
