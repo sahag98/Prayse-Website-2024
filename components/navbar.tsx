@@ -55,11 +55,11 @@ const Navbar = () => {
             Shop
           </li>
         </Link>
-        <Link href={"/privacy"}>
+        {/* <Link href={"/privacy"}>
           <li className="cursor-pointer text-sm transition-all hover:font-medium">
             Privacy
           </li>
-        </Link>
+        </Link> */}
       </ul>
       <Link
         href={"https://buymeacoffee.com/prayse"}

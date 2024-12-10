@@ -4,7 +4,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen my-24 lg:px-44 flex flex-col items-center md:px-36 sm:px-7 px-4">
       <h1 className="text-3xl font-bold mb-3">How Prayse Started</h1>
-      <p>Hey there, my name is Sahag and I'm the founder of Prayse.</p>
+      <p>Hey there, my name is Sahag and I&apos;m the founder of Prayse.</p>
       <div className="md:w-2/3 mt-5 space-y-3">
         <p>
           During the summer of 2022, I was attending a bible study at my church,
@@ -17,26 +17,24 @@ const AboutPage = () => {
           As I started typing everyone&apos;s requests into my phone, I heard a
           simple voice in my head say,{" "}
           <span className="italic">
-            "What if you build an app for this purpose?"
+            &quot;What if you build an app for this purpose?&quot;
           </span>{" "}
-          At this point in my life, I was pursuing a Bachelor's degree in
+          At this point in my life, I was pursuing a Bachelor&apos;s degree in
           Computer Science. I prayed about that voice and soon began to develop
           the idea.
         </p>
         <p>
-          A couple of weeks later, I published the first version of Prayse
-          (Prayer & Praise) on both the Google Play Store and the App Store. I
+          A couple of weeks later, the first version of Prayse (Prayer & Praise)
+          was published on both the Google Play Store and the App Store. I
           shared it with my friends and they found it useful. To my surprise,
           even people from the internet started downloading and using it.
-          Honestly, I was shocked, because for me, Prayse was just meant to be
-          an app I could use to manage prayer requests. As I continued praying
-          about Prayse, I felt the need to keep developing it and help people
-          from around the world with their prayer lists and their walk with God.
-          During this process, my hunger and passion for Prayse grew, and I
-          became 100% certain that this was something the Lord wanted me to do.
-          I hadn&apos;t fully thought about the long-term journey of Prayse or
-          its ultimate goal, but through the Lord's guidance, I was at least
-          able to figure out the very next step.
+          Honestly, I was shocked, because for me, Prayse was just meant to be a
+          personal app to manage my prayer requests. As I continued praying
+          about Prayse, the need to keep developing it grew and I became 100%
+          certain that this was something the Lord wanted me to do. Hadn&apos;t
+          fully thought about the long-term journey of Prayse or its ultimate
+          goal, but through the Lord&apos;s guidance, was at least able to
+          figure out the very next step.
         </p>
         <p>
           Fast forward two years later: Prayse has reached thousands of people,
@@ -57,10 +55,10 @@ const AboutPage = () => {
           If you&apos;re someone who spends alot of time thinking about your
           future, your career, or anything else, I encourage you to pause and
           reflect on this simple question: What does God want me to do next?
-          Pray, read God's word, seek counsel, and by faith, take that very next
-          step. No matter how big or small that step might be, FULLY surrender
-          it to the Lord and marvel at the amazing things He will do to guide
-          and provide for you.
+          Pray, read God&apos;s word, seek counsel, and by faith, take that very
+          next step. No matter how big or small that step might be, FULLY
+          surrender it to the Lord and marvel at the amazing things He will do
+          to guide and provide for you.
         </p>
         <p>
           Most importantly, and before anything else, if you do not have a
@@ -72,8 +70,8 @@ const AboutPage = () => {
           others. In Jesus&apos; name, Amen.
         </p>
         <p className="font-medium">
-          Here are a list of bible verses that have helped and guided me
-          throughout the past couple of years:
+          Here are a list of bible verses that have been a huge help throughout
+          the past couple of years:
         </p>
         <ul>
           <li className="italic list-disc">Philippians 4:6-7</li>
