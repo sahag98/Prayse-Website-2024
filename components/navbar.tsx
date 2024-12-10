@@ -78,9 +78,11 @@ const Navbar = () => {
         <SheetContent>
           <SheetDescription className="flex flex-col gap-10 flex-1 h-full items-center justify-center">
             <ul className="flex gap-5 flex-col items-center justify-evenly w-full">
-              <li className="cursor-pointer  text-xl transition-all hover:font-medium">
-                About
-              </li>
+              <Link href={"/about"}>
+                <li className="cursor-pointer  text-xl transition-all hover:font-medium">
+                  About
+                </li>
+              </Link>
               <Link href={"https://shop.prayse.app"} target="_blank">
                 <li className="cursor-pointer  text-xl transition-all hover:font-medium">
                   Shop
