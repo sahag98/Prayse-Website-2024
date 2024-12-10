@@ -2,15 +2,13 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { Button } from "./ui/button";
-import { ArrowDownToLine, Download, DownloadIcon, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
 import Link from "next/link";
 
 import {
   Sheet,
   SheetContent,
   SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -88,9 +86,9 @@ const Navbar = () => {
                   Shop
                 </li>
               </Link>
-              <li className="cursor-pointer  text-xl transition-all hover:font-medium">
+              {/* <li className="cursor-pointer  text-xl transition-all hover:font-medium">
                 Privacy
-              </li>
+              </li> */}
             </ul>
             <Link
               href={"https://buymeacoffee.com/prayse"}
