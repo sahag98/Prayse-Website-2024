@@ -48,7 +48,7 @@ const Section = ({
       )}
     >
       <section className="flex-1 about-text space-y-3">
-        <h2 className="font-bold md:w-2/3 text-5xl">{title}</h2>
+        <h2 className="font-bold md:w-2/3 md:text-5xl text-3xl">{title}</h2>
         <p className="md:w-2/3">{description}</p>
       </section>
       <section className="flex-1 about-image flex items-center justify-center">
