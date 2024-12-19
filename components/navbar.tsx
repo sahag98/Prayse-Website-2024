@@ -32,7 +32,7 @@ const Navbar = () => {
           : "bg-opacity-25 backdrop-filter backdrop-blur-sm"
       }`}
     >
-      <Link href={"/"} className="flex items-center gap-1">
+      <Link href={"/"} className="flex cursor-pointer items-center gap-1">
         <Image
           src={"/prayse-logo.png"}
           width={500}

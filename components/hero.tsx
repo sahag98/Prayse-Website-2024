@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="h-[calc(100vh-64px)] lg:px-24 md:px-16 sm:px-7 px-4 mt-16 py-14 flex md:flex-row flex-col gap-10 items-center justify-cemter w-full">
       <div className="bg-blue-50 md:flex-row flex-col w-full h-full flex items-center justify-center gap-10 rounded-2xl">
-        <div className="flex flex-col justify-center md:w-1/2 w-full gap-10">
+        <div className="flex flex-col justify-center md:w-1/2 w-full gap-5">
           <div className="flex md:w-3/4 w-full flex-col gap-4">
             <h1 className="md:text-6xl text-4xl text-primary font-bold">
               Take a moment and pray
