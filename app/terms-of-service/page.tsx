@@ -8,31 +8,34 @@ const Page = () => {
       <h1>AGREEMENT TO OUR LEGAL TERMS</h1>
 
       <p>
-        We are Sahak Arzoumanian, doing business as Prayse ("Company," "we,"
-        "us," "our"), a company registered in California, United States at 2213
-        Rockrose Street, Palmdale, CA 93551. We operate the mobile application
-        Prayse (the "App"), as well as any other related products and services
-        that refer or link to these legal terms (the "Legal Terms")
-        (collectively, the "Services") An app where you can create and manage
-        your prayer list, helping you stay organized in your walk with God. You
-        can contact us by phone at 6613000021, email at arzsahag@gmail.com, or
-        by mail to 2213 Rockrose Street, Palmdale, CA 93551, United States.
+        We are Sahak Arzoumanian, doing business as Prayse
+        (&ldquo;Company,&ldquo; &ldquo;we,&ldquo; &ldquo;us,&ldquo;
+        &ldquo;our&ldquo;), a company registered in California, United States at
+        2213 Rockrose Street, Palmdale, CA 93551. We operate the mobile
+        application Prayse (the &ldquo;App&ldquo;), as well as any other related
+        products and services that refer or link to these legal terms (the
+        &ldquo;Legal Terms&ldquo;) (collectively, the &ldquo;Services&ldquo;) An
+        app where you can create and manage your prayer list, helping you stay
+        organized in your walk with God. You can contact us by phone at
+        6613000021, email at arzsahag@gmail.com, or by mail to 2213 Rockrose
+        Street, Palmdale, CA 93551, United States.
       </p>
       <br />
 
       <p>
         These Legal Terms constitute a legally binding agreement made between
-        you, whether personally or on behalf of an entity ("you"), and Sahak
-        Arzoumanian, concerning your access to and use of the Services. You
-        agree that by accessing the Services, you have read, understood, and
-        agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH
-        ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING
-        THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY. We will provide
-        you with prior notice of any scheduled changes to the Services you are
-        using. The modified Legal Terms will become effective upon posting or
-        notifying you by sahag@prayse.app, as stated in the email message. By
-        continuing to use the Services after the effective date of any changes,
-        you agree to be bound by the modified terms.
+        you, whether personally or on behalf of an entity (&ldquo;you&ldquo;),
+        and Sahak Arzoumanian, concerning your access to and use of the
+        Services. You agree that by accessing the Services, you have read,
+        understood, and agreed to be bound by all of these Legal Terms. IF YOU
+        DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY
+        PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE
+        IMMEDIATELY. We will provide you with prior notice of any scheduled
+        changes to the Services you are using. The modified Legal Terms will
+        become effective upon posting or notifying you by sahag@prayse.app, as
+        stated in the email message. By continuing to use the Services after the
+        effective date of any changes, you agree to be bound by the modified
+        terms.
       </p>
       <br />
 
@@ -162,19 +165,19 @@ const Page = () => {
         We are the owner or the licensee of all intellectual property rights in
         our Services, including all source code, databases, functionality,
         software, website designs, audio, video, text, photographs, and graphics
-        in the Services (collectively, the "Content"), as well as the
-        trademarks, service marks, and logos contained therein (the "Marks").
-        Our Content and Marks are protected by copyright and trademark laws (and
-        various other intellectual property rights and unfair competition laws)
-        and treaties in the United States and around the world. The Content and
-        Marks are provided in or through the Services "AS IS" for your personal,
-        non-commercial use only.
+        in the Services (collectively, the &ldquo;Content&ldquo;), as well as
+        the trademarks, service marks, and logos contained therein (the
+        &ldquo;Marks&ldquo;). Our Content and Marks are protected by copyright
+        and trademark laws (and various other intellectual property rights and
+        unfair competition laws) and treaties in the United States and around
+        the world. The Content and Marks are provided in or through the Services
+        &ldquo;AS IS&ldquo; for your personal, non-commercial use only.
       </p>
       <h5>Your use of our Services</h5>
       <p>
         Subject to your compliance with these Legal Terms, including the
-        "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive,
-        non-transferable, revocable license to:
+        &ldquo;PROHIBITED ACTIVITIES&ldquo; section below, we grant you a
+        non-exclusive, non-transferable, revocable license to:
       </p>
       <ul>
         <li>access the Services; and</li>
@@ -214,19 +217,20 @@ const Page = () => {
       <br />
 
       <p>
-        Please review this section and the "PROHIBITED ACTIVITIES" section
-        carefully prior to using our Services to understand the (a) rights you
-        give us and (b) obligations you have when you post or upload any content
-        through the Services.
+        Please review this section and the &ldquo;PROHIBITED ACTIVITIES&ldquo;
+        section carefully prior to using our Services to understand the (a)
+        rights you give us and (b) obligations you have when you post or upload
+        any content through the Services.
       </p>
       <br />
       <p>
         Submissions: By directly sending us any question, comment, suggestion,
-        idea, feedback, or other information about the Services ("Submissions"),
-        you agree to assign to us all intellectual property rights in such
-        Submission. You agree that we shall own this Submission and be entitled
-        to its unrestricted use and dissemination for any lawful purpose,
-        commercial or otherwise, without acknowledgment or compensation to you.
+        idea, feedback, or other information about the Services
+        (&ldquo;Submissions&ldquo;), you agree to assign to us all intellectual
+        property rights in such Submission. You agree that we shall own this
+        Submission and be entitled to its unrestricted use and dissemination for
+        any lawful purpose, commercial or otherwise, without acknowledgment or
+        compensation to you.
       </p>
       <br />
       <p>
@@ -236,9 +240,9 @@ const Page = () => {
         transmit, publish, distribute, or broadcast content and materials to us
         or through the Services, including but not limited to text, writings,
         video, audio, photographs, music, graphics, comments, reviews, rating
-        suggestions, personal information, or other material ("Contributions").
-        Any Submission that is publicly posted shall also be treated as a
-        Contribution.
+        suggestions, personal information, or other material
+        (&ldquo;Contributions&ldquo;). Any Submission that is publicly posted
+        shall also be treated as a Contribution.
       </p>
       <br />
 
@@ -279,12 +283,12 @@ const Page = () => {
       </p>
       <ul>
         <li>
-          confirm that you have read and agree with our "PROHIBITED ACTIVITIES"
-          and will not post, send, publish, upload, or transmit through the
-          Services any Submission nor post any Contribution that is illegal,
-          harassing, hateful, harmful, defamatory, obscene, bullying, abusive,
-          discriminatory, threatening to any person or group, sexually explicit,
-          false, inaccurate, deceitful, or misleading;
+          confirm that you have read and agree with our &ldquo;PROHIBITED
+          ACTIVITIES&ldquo; and will not post, send, publish, upload, or
+          transmit through the Services any Submission nor post any Contribution
+          that is illegal, harassing, hateful, harmful, defamatory, obscene,
+          bullying, abusive, discriminatory, threatening to any person or group,
+          sexually explicit, false, inaccurate, deceitful, or misleading;
         </li>
         <li>
           to the extent permissible by applicable law, waive any and all moral
@@ -324,7 +328,7 @@ const Page = () => {
         We respect the intellectual property rights of others. If you believe
         that any material available on or through the Services infringes upon
         any copyright you own or control, please immediately refer to the
-        "COPYRIGHT INFRINGEMENTS" section below.
+        &ldquo;COPYRIGHT INFRINGEMENTS&ldquo; section below.
       </p>
       <br />
       <h4 id="representations">3. USER REPRESENTATIONS</h4>
@@ -499,9 +503,10 @@ const Page = () => {
           Upload or transmit (or attempt to upload or to transmit) any material
           that acts as a passive or active information collection or
           transmission mechanism, including without limitation, clear graphics
-          interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other
-          similar devices (sometimes referred to as "spyware" or "passive
-          collection mechanisms" or "pcms").
+          interchange formats (&ldquo;gifs&ldquo;), 1×1 pixels, web bugs,
+          cookies, or other similar devices (sometimes referred to as
+          &ldquo;spyware&ldquo; or &ldquo;passive collection mechanisms&ldquo;
+          or &ldquo;pcms&ldquo;).
         </li>
         <li>
           Interfere with, disrupt, or create an undue burden on the Services or
@@ -556,11 +561,12 @@ const Page = () => {
         transmit, perform, publish, distribute, or broadcast content and
         materials to us or on the Services, including but not limited to text,
         writings, video, audio, photographs, graphics, comments, suggestions, or
-        personal information or other material (collectively, "Contributions").
-        Contributions may be viewable by other users of the Services and through
-        third-party websites. As such, any Contributions you transmit may be
-        treated as non-confidential and non-proprietary. When you create or make
-        available any Contributions, you thereby represent and warrant that:
+        personal information or other material (collectively,
+        &ldquo;Contributions&ldquo;). Contributions may be viewable by other
+        users of the Services and through third-party websites. As such, any
+        Contributions you transmit may be treated as non-confidential and
+        non-proprietary. When you create or make available any Contributions,
+        you thereby represent and warrant that:
       </p>
       <br />
       <ul>
@@ -734,11 +740,11 @@ const Page = () => {
       <br />
       <p>
         The following terms apply when you use the App obtained from either the
-        Apple Store or Google Play (each an "App Distributor") to access the
-        Services: (1) the license granted to you for our App is limited to a
-        non-transferable license to use the application on a device that
-        utilizes the Apple iOS or Android operating systems, as applicable, and
-        in accordance with the usage rules set forth in the applicable App
+        Apple Store or Google Play (each an &ldquo;App Distributor&ldquo;) to
+        access the Services: (1) the license granted to you for our App is
+        limited to a non-transferable license to use the application on a device
+        that utilizes the Apple iOS or Android operating systems, as applicable,
+        and in accordance with the usage rules set forth in the applicable App
         Distributor's terms of service; (2) we are responsible for providing any
         maintenance and support services with respect to the App as specified in
         the terms and conditions of this mobile application license contained in
@@ -753,18 +759,18 @@ const Page = () => {
         warranty obligation whatsoever with respect to the App; (4) you
         represent and warrant that (i) you are not located in a country that is
         subject to a US government embargo, or that has been designated by the
-        US government as a "terrorist supporting" country and (ii) you are not
-        listed on any US government list of prohibited or restricted parties;
-        (5) you must comply with applicable third-party terms of agreement when
-        using the App, e.g., if you have a VolP application, then you must not
-        be in violation of their wireless data service agreement when using the
-        App; and (6) you acknowledge and agree that the App Distributors are
-        third-party beneficiaries of the terms and conditions in this mobile
-        application license contained in these Legal Terms, and that each App
-        Distributor will have the right (and will be deemed to have accepted the
-        right) to enforce the terms and conditions in this mobile application
-        license contained in these Legal Terms against you as a third-party
-        beneficiary thereof.
+        US government as a &ldquo;terrorist supporting&ldquo; country and (ii)
+        you are not listed on any US government list of prohibited or restricted
+        parties; (5) you must comply with applicable third-party terms of
+        agreement when using the App, e.g., if you have a VolP application, then
+        you must not be in violation of their wireless data service agreement
+        when using the App; and (6) you acknowledge and agree that the App
+        Distributors are third-party beneficiaries of the terms and conditions
+        in this mobile application license contained in these Legal Terms, and
+        that each App Distributor will have the right (and will be deemed to
+        have accepted the right) to enforce the terms and conditions in this
+        mobile application license contained in these Legal Terms against you as
+        a third-party beneficiary thereof.
       </p>
       <br />
       <h4 id="service-management">14. SERVICES MANAGEMENT</h4>
@@ -806,13 +812,13 @@ const Page = () => {
         We respect the intellectual property rights of others. If you believe
         that any material available on or through the Services infringes upon
         any copyright you own or control, please immediately notify us using the
-        contact information provided below (a "Notification"). A copy of your
-        Notification will be sent to the person who posted or stored the
-        material addressed in the Notification. Please be advised that pursuant
-        to applicable law you may be held liable for damages if you make
-        material misrepresentations in a Notification. Thus, if you are not sure
-        that material located on or linked to by the Services infringes your
-        copyright, you should consider first contacting an attorney.
+        contact information provided below (a &ldquo;Notification&ldquo;). A
+        copy of your Notification will be sent to the person who posted or
+        stored the material addressed in the Notification. Please be advised
+        that pursuant to applicable law you may be held liable for damages if
+        you make material misrepresentations in a Notification. Thus, if you are
+        not sure that material located on or linked to by the Services infringes
+        your copyright, you should consider first contacting an attorney.
       </p>
       <br />
       <h4 id="termination">17. TERM AND TERMINATION</h4>
@@ -872,13 +878,14 @@ const Page = () => {
       <br />
       <p>
         To expedite resolution and control the cost of any dispute, controversy,
-        or claim related to these Legal Terms (each a "Dispute" and
-        collectively, the "Disputes") brought by either you or us (individually,
-        a "Party" and collectively, the "Parties"), the Parties agree to first
-        attempt to negotiate any Dispute (except those Disputes expressly
-        provided below) informally for at least thirty (30) days before
-        initiating arbitration. Such informal negotiations commence upon written
-        notice from one Party to the other Party.
+        or claim related to these Legal Terms (each a &ldquo;Dispute&ldquo; and
+        collectively, the &ldquo;Disputes&ldquo;) brought by either you or us
+        (individually, a &ldquo;Party&ldquo; and collectively, the
+        &ldquo;Parties&ldquo;), the Parties agree to first attempt to negotiate
+        any Dispute (except those Disputes expressly provided below) informally
+        for at least thirty (30) days before initiating arbitration. Such
+        informal negotiations commence upon written notice from one Party to the
+        other Party.
       </p>
       <br />
       <h5>Binding Arbitration</h5>
@@ -890,13 +897,13 @@ const Page = () => {
         YOU UNDERSTAND THAT WITHOUT THIS PROVISION, YOU WOULD HAVE THE RIGHT TO
         SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced
         and conducted under the Commercial Arbitration Rules of the American
-        Arbitration Association ("AAA") and, where appropriate, the AAA's
-        Supplementary Procedures for Consumer Related Disputes ("AAA Consumer
-        Rules"), both of which are available at the American Arbitration
-        Association (AAA) website. Your arbitration fees and your share of
-        arbitrator compensation shall be governed by the AAA Consumer Rules and,
-        where appropriate, limited by the AAA Consumer Rules. If such costs are
-        determined by the arbitrator to be excessive, we will pay all
+        Arbitration Association (&ldquo;AAA&ldquo;) and, where appropriate, the
+        AAA's Supplementary Procedures for Consumer Related Disputes (&ldquo;AAA
+        Consumer Rules&ldquo;), both of which are available at the American
+        Arbitration Association (AAA) website. Your arbitration fees and your
+        share of arbitrator compensation shall be governed by the AAA Consumer
+        Rules and, where appropriate, limited by the AAA Consumer Rules. If such
+        costs are determined by the arbitrator to be excessive, we will pay all
         arbitration fees and expenses. The arbitration may be conducted in
         person, through the submission of documents, by phone, or online. The
         arbitrator will make a decision in writing, but need not provide a
