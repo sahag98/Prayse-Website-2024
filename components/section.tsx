@@ -43,15 +43,15 @@ const Section = ({
   return (
     <div
       className={clsx(
-        "min-h-screen flex flex-col md:py-0 py-10 md:flex-row w-full items-center justify-center lg:px-44 md:px-36 sm:px-7 px-4",
+        "min-h-screen flex flex-col md:py-0 md:gap-0 gap-5 py-10 md:flex-row w-full items-center justify-center lg:px-44 md:px-36 sm:px-7 px-4",
         className
       )}
     >
-      <section className="flex-1  about-text space-y-3">
+      <section className="flex-1 about-text space-y-3">
         <h2 className="font-bold md:w-2/3 md:text-5xl text-3xl">{title}</h2>
         <p className="md:w-2/3">{description}</p>
       </section>
-      <section className="flex-1  about-image flex items-center justify-center">
+      <section className="flex-1 about-image flex items-center justify-center">
         <Image
           src={imageUrl}
           alt="Prayse home screen"
