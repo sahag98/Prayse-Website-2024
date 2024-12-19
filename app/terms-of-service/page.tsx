@@ -940,7 +940,7 @@ const Page = () => {
         The Parties agree that any arbitration shall be limited to the Dispute
         between the Parties individually. To the full extent permitted by law,
         (a) no arbitration shall be joined with any other proceeding; (b) there
-        is no right or authority for any Dispute to be arbitrated on a
+        is no right or authority for any Dispute to be arbitrated on a``
         class-action basis or to utilize class action procedures; and (c) there
         is no right or authority for any Dispute to be brought in a purported
         representative capacity on behalf of the general public or any other
