@@ -310,8 +310,8 @@ const Page = () => {
       <p>
         You are solely responsible for your Submissions and/or Contributions and
         you expressly agree to reimburse us for any and all losses that we may
-        suffer because of your breach of (a) this section, (b) any third party's
-        intellectual property rights, or (c) applicable law.
+        suffer because of your breach of (a) this section, (b) any third
+        party&apos;s intellectual property rights, or (c) applicable law.
       </p>
       <br />
       <p>
@@ -481,9 +481,9 @@ const Page = () => {
           Upload or transmit (or attempt to upload or to transmit) viruses,
           Trojan horses, or other material, including excessive use of capital
           letters and spamming (continuous posting of repetitive text), that
-          interferes with any party's uninterrupted use and enjoyment of the
-          Services or modifies, impairs, disrupts, alters, or interferes with
-          the use, features, functions, operation, or maintenance of the
+          interferes with any party&apos;s uninterrupted use and enjoyment of
+          the Services or modifies, impairs, disrupts, alters, or interferes
+          with the use, features, functions, operation, or maintenance of the
           Services.
         </li>
         <li>
@@ -521,8 +521,8 @@ const Page = () => {
           restrict access to the Services, or any portion of the Services.
         </li>
         <li>
-          Copy or adapt the Services' software, including but not limited to
-          Flash, PHP, HTML, JavaScript, or other code.
+          Copy or adapt the Services&apos; software, including but not limited
+          to Flash, PHP, HTML, JavaScript, or other code.
         </li>
         <li>
           Except as permitted by applicable law, decipher, decompile,
@@ -745,32 +745,32 @@ const Page = () => {
         limited to a non-transferable license to use the application on a device
         that utilizes the Apple iOS or Android operating systems, as applicable,
         and in accordance with the usage rules set forth in the applicable App
-        Distributor's terms of service; (2) we are responsible for providing any
-        maintenance and support services with respect to the App as specified in
-        the terms and conditions of this mobile application license contained in
-        these Legal Terms or as otherwise required under applicable law, and you
-        acknowledge that each App Distributor has no obligation whatsoever to
-        furnish any maintenance and support services with respect to the App;
-        (3) in the event of any failure of the App to conform to any applicable
-        warranty, you may notify the applicable App Distributor, and the App
-        Distributor, in accordance with its terms and policies, may refund the
-        purchase price, if any, paid for the App, and to the maximum extent
-        permitted by applicable law, the App Distributor will have no other
-        warranty obligation whatsoever with respect to the App; (4) you
-        represent and warrant that (i) you are not located in a country that is
-        subject to a US government embargo, or that has been designated by the
-        US government as a &ldquo;terrorist supporting&ldquo; country and (ii)
-        you are not listed on any US government list of prohibited or restricted
-        parties; (5) you must comply with applicable third-party terms of
-        agreement when using the App, e.g., if you have a VolP application, then
-        you must not be in violation of their wireless data service agreement
-        when using the App; and (6) you acknowledge and agree that the App
-        Distributors are third-party beneficiaries of the terms and conditions
-        in this mobile application license contained in these Legal Terms, and
-        that each App Distributor will have the right (and will be deemed to
-        have accepted the right) to enforce the terms and conditions in this
-        mobile application license contained in these Legal Terms against you as
-        a third-party beneficiary thereof.
+        Distributor&apos;s terms of service; (2) we are responsible for
+        providing any maintenance and support services with respect to the App
+        as specified in the terms and conditions of this mobile application
+        license contained in these Legal Terms or as otherwise required under
+        applicable law, and you acknowledge that each App Distributor has no
+        obligation whatsoever to furnish any maintenance and support services
+        with respect to the App; (3) in the event of any failure of the App to
+        conform to any applicable warranty, you may notify the applicable App
+        Distributor, and the App Distributor, in accordance with its terms and
+        policies, may refund the purchase price, if any, paid for the App, and
+        to the maximum extent permitted by applicable law, the App Distributor
+        will have no other warranty obligation whatsoever with respect to the
+        App; (4) you represent and warrant that (i) you are not located in a
+        country that is subject to a US government embargo, or that has been
+        designated by the US government as a &ldquo;terrorist supporting&ldquo;
+        country and (ii) you are not listed on any US government list of
+        prohibited or restricted parties; (5) you must comply with applicable
+        third-party terms of agreement when using the App, e.g., if you have a
+        VolP application, then you must not be in violation of their wireless
+        data service agreement when using the App; and (6) you acknowledge and
+        agree that the App Distributors are third-party beneficiaries of the
+        terms and conditions in this mobile application license contained in
+        these Legal Terms, and that each App Distributor will have the right
+        (and will be deemed to have accepted the right) to enforce the terms and
+        conditions in this mobile application license contained in these Legal
+        Terms against you as a third-party beneficiary thereof.
       </p>
       <br />
       <h4 id="service-management">14. SERVICES MANAGEMENT</h4>
@@ -898,18 +898,18 @@ const Page = () => {
         SUE IN COURT AND HAVE A JURY TRIAL. The arbitration shall be commenced
         and conducted under the Commercial Arbitration Rules of the American
         Arbitration Association (&ldquo;AAA&ldquo;) and, where appropriate, the
-        AAA's Supplementary Procedures for Consumer Related Disputes (&ldquo;AAA
-        Consumer Rules&ldquo;), both of which are available at the American
-        Arbitration Association (AAA) website. Your arbitration fees and your
-        share of arbitrator compensation shall be governed by the AAA Consumer
-        Rules and, where appropriate, limited by the AAA Consumer Rules. If such
-        costs are determined by the arbitrator to be excessive, we will pay all
-        arbitration fees and expenses. The arbitration may be conducted in
-        person, through the submission of documents, by phone, or online. The
-        arbitrator will make a decision in writing, but need not provide a
-        statement of reasons unless requested by either Party. The arbitrator
-        must follow applicable law, and any award may be challenged if the
-        arbitrator fails to do so. Except where otherwise required by the
+        AAA&apos;s Supplementary Procedures for Consumer Related Disputes
+        (&ldquo;AAA Consumer Rules&ldquo;), both of which are available at the
+        American Arbitration Association (AAA) website. Your arbitration fees
+        and your share of arbitrator compensation shall be governed by the AAA
+        Consumer Rules and, where appropriate, limited by the AAA Consumer
+        Rules. If such costs are determined by the arbitrator to be excessive,
+        we will pay all arbitration fees and expenses. The arbitration may be
+        conducted in person, through the submission of documents, by phone, or
+        online. The arbitrator will make a decision in writing, but need not
+        provide a statement of reasons unless requested by either Party. The
+        arbitrator must follow applicable law, and any award may be challenged
+        if the arbitrator fails to do so. Except where otherwise required by the
         applicable AAA rules or applicable law, the arbitration will take place
         in United States, California. Except as otherwise provided herein, the
         Parties may litigate in court to compel arbitration, stay proceedings
@@ -983,7 +983,7 @@ const Page = () => {
         IN CONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT
         LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
         PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR
-        REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES'
+        REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES&apos;
         CONTENT OR THE CONTENT OF ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO
         THE SERVICES AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY
         (1) ERRORS, MISTAKES, OR NACCURACIES OF CONTENT AND MATERIALS, (2)
@@ -1024,8 +1024,8 @@ const Page = () => {
         You agree to defend, indemnify, and hold us harmless, including our
         subsidiaries, affiliates, and all of our respective officers, agents,
         partners, and employees, from and against any loss, damage, liability,
-        claim, or demand, including reasonable attorneys' fees and expenses,
-        made by any third party due to or arising out of: (1) your
+        claim, or demand, including reasonable attorneys&apos; fees and
+        expenses, made by any third party due to or arising out of: (1) your
         Contributions; (2) use of the Services; (3) breach of these Legal Terms;
         (4) any breach of your representations and warranties set forth in these
         Legal Terms; (5) your violation of the rights of a third party,
