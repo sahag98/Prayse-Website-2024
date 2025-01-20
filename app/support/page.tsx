@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -17,8 +16,9 @@ const SupportPage = () => {
         <p className="text-lg">
           As a team of one, I&apos;m blessed to work on Prayse and help people
           develop a consistent prayer life with God. Lord willing, my prayer is
-          to get to a point where I can fully focus on Prayse as it's something
-          I absolutely love working on and feel led by the Lord to focus on.
+          to get to a point where I can fully focus on Prayse as it&apos;s
+          something I absolutely love working on and feel led by the Lord to
+          focus on.
         </p>
 
         <section className="space-x-5 my-10 w-full flex items-center justify-center">
@@ -57,10 +57,10 @@ const SupportPage = () => {
         </ul>
         <p className="text-lg">
           Thank you so much for your support and we pray that you would see the
-          fruits of your support through Prayse and through God's blessings. If
-          you are unable to support Prayse financially, you can always support
-          Prayse by just using our app, interacting with us on our socials, and
-          giving ideas to improve Prayse!
+          fruits of your support through Prayse and through God&apos;s
+          blessings. If you are unable to support Prayse financially, you can
+          always support Prayse by just using our app, interacting with us on
+          our socials, and giving ideas to improve Prayse!
         </p>
       </div>
 
