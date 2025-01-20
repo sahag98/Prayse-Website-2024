@@ -1,11 +1,70 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-const AboutPage = () => {
+const SupportPage = () => {
   return (
     <div className="min-h-screen my-24 lg:px-44 flex flex-col items-center md:px-36 sm:px-7 px-4">
-      <h1 className="text-3xl font-bold mb-3">How Prayse Started</h1>
-      <p>Hey there, my name is Sahag and I&apos;m the founder of Prayse.</p>
+      <h1 className="text-5xl font-bold mb-3">Take Part</h1>
+      <div className="md:w-2/3 mt-5 flex flex-col gap-5">
+        <p className="text-lg">
+          Praying is a privelege we as Christians have, but sometimes it&apos;s
+          taken for granted. Prayse&apos;s main mission is to re-elevate the
+          importance of praying and praising God despite the distractions in our
+          lives, and Prayse needs your help to achieve that.
+        </p>
+        <p className="text-lg">
+          As a team of one, I&apos;m blessed to work on Prayse and help people
+          develop a consistent prayer life with God. Lord willing, my prayer is
+          to get to a point where I can fully focus on Prayse as it's something
+          I absolutely love working on and feel led by the Lord to focus on.
+        </p>
+
+        <section className="space-x-5 my-10 w-full flex items-center justify-center">
+          <Link
+            href={"https://buymeacoffee.com/prayse"}
+            className="w-1/2"
+            target="_blank"
+          >
+            <Button className="text-lg font-bold w-full py-7" size={"lg"}>
+              One Time Donation
+            </Button>
+          </Link>
+
+          <Link
+            href={"https://buymeacoffee.com/prayse/membership"}
+            className="w-1/2"
+            target="_blank"
+          >
+            <Button className="text-lg font-bold w-full py-7" size={"lg"}>
+              Monthly Donation
+            </Button>
+          </Link>
+        </section>
+        <h2 className="text-4xl font-semibold">How will the funds be used?</h2>
+        <h3 className="text-lg">
+          The funds received through your contributions will be used to support
+          the following:
+        </h3>
+        <ul className="">
+          <li>- Development and maintenance of our app.</li>
+          <li>- Apple fees to keep Prayse on the App Store.</li>
+          <li>
+            - Effort to bring in more people that can help with the app, social
+            media, and merchandise.
+          </li>
+        </ul>
+        <p className="text-lg">
+          Thank you so much for your support and we pray that you would see the
+          fruits of your support through Prayse and through God's blessings. If
+          you are unable to support Prayse financially, you can always support
+          Prayse by just using our app, interacting with us on our socials, and
+          giving ideas to improve Prayse!
+        </p>
+      </div>
+
+      {/* <p>Hey there, my name is Sahag and I&apos;m the founder of Prayse.</p>
       <div className="md:w-2/3 mt-5 space-y-3">
         <p>
           During the summer of 2022, I was attending a bible study at my church,{" "}
@@ -126,9 +185,9 @@ const AboutPage = () => {
           Praying for you, and am so glad that you are a part of this amazing
           journey! - Sahag
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
 
-export default AboutPage;
+export default SupportPage;

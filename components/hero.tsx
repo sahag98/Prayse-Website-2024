@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
         </div>
         <Image
-          src={"/prayse-app.jpeg"}
+          src={"/prayse-hero.jpeg"}
           alt="Prayse home screen"
           className="md:w-1/5 w-3/4 md:flex border border-[#2f2d51] shadow-xl shadow-gray-200 rounded-2xl"
           width={1179}

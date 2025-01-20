@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
+import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100">
-      <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+    <footer className="bg-blue-50">
+      <div className="mx-auto flex flex-col items-center max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center text-[#2f2d51]">
           <section className="flex items-center gap-1">
             <Image
@@ -102,6 +103,18 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        <a
+          className="mt-5"
+          href="https://startupfa.me/s/prayse?utm_source=prayse.app"
+          target="_blank"
+        >
+          <img
+            src="https://startupfa.me/badges/featured-badge-small.webp"
+            alt="Prayse - Take a moment and pray | Startup Fame"
+            width="224"
+            height="36"
+          />
+        </a>
       </div>
     </footer>
   );

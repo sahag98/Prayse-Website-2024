@@ -53,17 +53,18 @@ const Navbar = () => {
             Shop
           </li>
         </Link>
+        <Link href={"/contact"}>
+          <li className="cursor-pointer text-sm transition-all hover:font-medium">
+            Contact
+          </li>
+        </Link>
         {/* <Link href={"/privacy"}>
           <li className="cursor-pointer text-sm transition-all hover:font-medium">
             Privacy
           </li>
         </Link> */}
       </ul>
-      <Link
-        href={"https://buymeacoffee.com/prayse"}
-        className="md:flex hidden"
-        target="_blank"
-      >
+      <Link href={"/support"} className="md:flex hidden">
         <Button
           variant={"secondary"}
           className="text-base gap-2 py-5 rounded-lg"
@@ -88,15 +89,16 @@ const Navbar = () => {
                   Shop
                 </li>
               </Link>
+              <Link href={"/contact"}>
+                <li className="cursor-pointer  text-xl transition-all hover:font-medium">
+                  Contact
+                </li>
+              </Link>
               {/* <li className="cursor-pointer  text-xl transition-all hover:font-medium">
                 Privacy
               </li> */}
             </ul>
-            <Link
-              href={"https://buymeacoffee.com/prayse"}
-              className=""
-              target="_blank"
-            >
+            <Link href="/support" className="">
               <Button
                 variant={"secondary"}
                 className="text-base gap-2 py-5 rounded-lg"

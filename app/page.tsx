@@ -31,6 +31,9 @@ export default function Home() {
         imageUrl="/verse.jpeg"
         className="md:flex-row-reverse text-[#2f2d51]"
       />
+      <section>
+        <h2>Contact</h2>
+      </section>
     </div>
   );
 }
