@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "./ui/button";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import Link from "next/link";
 
