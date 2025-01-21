@@ -27,7 +27,7 @@ const Footer = () => {
           <li>
             <a
               className="text-gray-700 transition hover:text-gray-700/75"
-              href="#"
+              href="/about"
             >
               {" "}
               About{" "}
@@ -37,7 +37,8 @@ const Footer = () => {
           <li>
             <a
               className="text-gray-700 transition hover:text-gray-700/75"
-              href="#"
+              href="https://shop.prayse.app/"
+              target="_blank"
             >
               {" "}
               Shop
@@ -47,10 +48,29 @@ const Footer = () => {
           <li>
             <a
               className="text-gray-700 transition hover:text-gray-700/75"
-              href="#"
+              href="/contact"
+            >
+              {" "}
+              Contact
+            </a>
+          </li>
+
+          <li>
+            <a
+              className="text-gray-700 transition hover:text-gray-700/75"
+              href="/privacy"
             >
               {" "}
               Privacy
+            </a>
+          </li>
+          <li>
+            <a
+              className="text-gray-700 transition hover:text-gray-700/75"
+              href="/terms-of-service"
+            >
+              {" "}
+              Terms Of Service
             </a>
           </li>
         </ul>

@@ -1,3 +1,4 @@
+import DownloadCTA from "@/components/download-cta";
 import Hero from "@/components/hero";
 import Section from "@/components/section";
 
@@ -22,7 +23,7 @@ export default function Home() {
       <Section
         title="Take a Moment and Pray"
         description="Find peace in the moment with a dedicated prayer space. Pause, reflect, and connect spiritually through our guided prayer prompts."
-        className={"bg-[#2f2d51] text-white"}
+        className={"bg-primary text-primary-foreground"}
         imageUrl="/takeamoment.jpg"
       />
       <Section
@@ -31,9 +32,7 @@ export default function Home() {
         imageUrl="/verse.jpeg"
         className="md:flex-row-reverse text-[#2f2d51]"
       />
-      <section>
-        <h2>Contact</h2>
-      </section>
+      <DownloadCTA />
     </div>
   );
 }
