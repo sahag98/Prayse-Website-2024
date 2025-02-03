@@ -21,10 +21,10 @@ const SupportPage = () => {
           focus on.
         </p>
 
-        <section className="space-x-5 my-10 w-full flex items-center justify-center">
+        <section className="gap-3 my-10 w-full flex md:flex-row flex-col items-center justify-center">
           <Link
             href={"https://buymeacoffee.com/prayse"}
-            className="w-1/2"
+            className="md:w-1/2 w-full"
             target="_blank"
           >
             <Button className="text-lg font-bold w-full py-7" size={"lg"}>
@@ -34,7 +34,7 @@ const SupportPage = () => {
 
           <Link
             href={"https://buymeacoffee.com/prayse/membership"}
-            className="w-1/2"
+            className="md:w-1/2 w-full"
             target="_blank"
           >
             <Button className="text-lg font-bold w-full py-7" size={"lg"}>
