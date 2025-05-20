@@ -14,10 +14,10 @@ const SupportPage = () => {
           lives, and Prayse needs your help to achieve that.
         </p>
         <p className="text-lg">
-          As a team of one, I&apos;m blessed to work on Prayse and help people
-          develop a consistent prayer life with God. Lord willing, my prayer is
-          to get to a point where I can fully focus on Prayse as it&apos;s
-          something I absolutely love working on and feel led by the Lord to
+          As a team of two,We&apos;re blessed to work on Prayse and help people
+          develop a consistent prayer life with God. Lord willing, our prayer is
+          to get to a point where we can fully focus on Prayse as it&apos;s
+          something we absolutely love working on and feel led by the Lord to
           focus on.
         </p>
 
