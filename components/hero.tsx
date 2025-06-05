@@ -1,5 +1,5 @@
 import React from "react";
-import { FaApple, FaGooglePlay } from "react-icons/fa";
+import { FaApple, FaDownload, FaGooglePlay, FaStar } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +8,17 @@ const Hero = () => {
     <section className="md:h-[calc(100vh-64px)] md:min-h-max min-h-screen lg:px-24 md:px-16 sm:px-7 px-4 mt-16 py-14 flex md:flex-row flex-col gap-10 items-center justify-cemter w-full">
       <div className="bg-blue-50 md:flex-row flex-col w-full min-h-full md:p-0 md:py-0 py-10 px-5 flex items-center justify-center gap-10 rounded-2xl">
         <div className="flex flex-col justify-center md:text-start text-center md:w-1/2 w-full gap-5">
-          <div className="flex md:w-3/4 w-full flex-col gap-4">
+          <div className="flex md:w-3/4 w-full flex-col gap-6">
+            <section className="flex md:self-start self-center items-center gap-4">
+              <div className="flex border border-primary bg-primary/10 rounded-2xl px-2 py-1 items-center gap-2 text-primary">
+                <FaStar size={20} className="" />
+                <span className=" text-sm">5.0 Rating</span>
+              </div>
+              <div className="flex items-center gap-2 text-primary px-2 py-1">
+                <FaDownload size={20} />
+                <span className=" text-sm">1000+ Downloads</span>
+              </div>
+            </section>
             <h1 className="md:text-6xl text-4xl text-primary font-bold">
               Take a Moment and Pray
             </h1>

@@ -1,11 +1,13 @@
 import DownloadCTA from "@/components/download-cta";
 import Hero from "@/components/hero";
+import Intro from "@/components/intro";
 import Section from "@/components/section";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Hero />
+      <Intro />
       <Section
         title="Create Prayer Lists"
         className="text-[#2f2d51]"
@@ -23,14 +25,14 @@ export default function Home() {
       <Section
         title="Take a Moment and Pray"
         description="Find peace in the moment with a dedicated prayer space. Pause, reflect, and connect spiritually through our guided prayer prompts."
-        className={"bg-primary text-primary-foreground"}
+        className={"text-[#2f2d51]"}
         imageUrl="/takeamoment.jpg"
       />
       <Section
         title="Read the Daily Verse"
         description="Start your day inspired by Scripture. Discover a handpicked Bible verse each day to uplift and encourage your faith journey."
         imageUrl="/verse.jpeg"
-        className="md:flex-row-reverse text-[#2f2d51]"
+        className="md:flex-row-reverse bg-blue-50 text-[#2f2d51]"
       />
       <DownloadCTA />
     </div>
