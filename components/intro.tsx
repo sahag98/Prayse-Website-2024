@@ -43,8 +43,8 @@ function Intro() {
                   Founder
                 </p>
                 <p className="text-gray-700 italic text-lg leading-relaxed">
-                  "Most of my days are spent fixing bugs, but the biggest fix I
-                  need? A reminder to pray daily."
+                  &quot;Most of my days are spent fixing bugs, but the biggest
+                  fix I need? A reminder to pray daily.&quot;
                 </p>
               </div>
             </div>
@@ -84,8 +84,8 @@ function Intro() {
                   Social Media Manager
                 </p>
                 <p className="text-gray-700 italic text-lg leading-relaxed">
-                  "You&apos;ll always find me worshipping to &apos;Hard Fought
-                  Hallelujah&apos; on repeat ❤️🔥"
+                  &quot;You&apos;ll always find me worshipping to &apos;Hard
+                  Fought Hallelujah&apos; on repeat ❤️🔥&quot;
                 </p>
               </div>
             </div>
