@@ -84,8 +84,8 @@ function Intro() {
                   Social Media Manager
                 </p>
                 <p className="text-gray-700 italic text-lg leading-relaxed">
-                  "You'll always find me worshipping to 'Hard Fought Hallelujah'
-                  on repeat ❤️🔥"
+                  "You&apos;ll always find me worshipping to &apos;Hard Fought
+                  Hallelujah&apos; on repeat ❤️🔥"
                 </p>
               </div>
             </div>
