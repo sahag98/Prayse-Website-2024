@@ -1,5 +1,5 @@
 "use client";
-import { merriweather } from "@/app/page";
+import { merriweather } from "@/lib/merriweather-font";
 import { cn } from "@/lib/utils";
 import { useScroll, useTransform, motion } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";

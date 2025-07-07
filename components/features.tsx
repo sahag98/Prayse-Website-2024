@@ -3,7 +3,7 @@
 import React from "react";
 import Section from "./section";
 import { cn } from "@/lib/utils";
-import { merriweather } from "@/app/page";
+import { merriweather } from "@/lib/merriweather-font";
 import { useScrollAnimation } from "@/hooks/use-gsap";
 
 const Features = () => {

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
-import { merriweather } from "../page";
+import { merriweather } from "@/lib/merriweather-font";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

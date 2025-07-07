@@ -4,7 +4,7 @@ import React from "react";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { merriweather } from "@/app/page";
+import { merriweather } from "@/lib/merriweather-font";
 
 const DownloadCTA = () => {
   return (

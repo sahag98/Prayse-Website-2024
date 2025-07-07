@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import ContactForm from "./contact-form";
-import { merriweather } from "../page";
+import { merriweather } from "@/lib/merriweather-font";
 import { cn } from "@/lib/utils";
 import { Instagram, MailCheck } from "lucide-react";
 import { gsap } from "gsap";

@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { cn } from "@/lib/utils";
-import { merriweather } from "@/app/page";
+import { merriweather } from "@/lib/merriweather-font";
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -4,16 +4,9 @@ import React, { useEffect, useRef } from "react";
 import { FaApple, FaDownload, FaGooglePlay, FaStar } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
-import { Merriweather } from "next/font/google";
+import { merriweather } from "@/lib/merriweather-font";
 import { cn } from "@/lib/utils";
 import { gsap } from "gsap";
-
-const merriweather = Merriweather({
-  subsets: ["latin"],
-  display: "swap",
-  style: ["normal", "italic"],
-  weight: ["300", "400", "700", "900"],
-});
 
 const Hero = () => {
   const heroRef = useRef<HTMLElement>(null);

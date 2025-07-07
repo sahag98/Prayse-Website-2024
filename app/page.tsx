@@ -1,15 +1,8 @@
 import DownloadCTA from "@/components/download-cta";
 import Hero from "@/components/hero";
 import Benefits from "@/components/benefits";
-import { Merriweather } from "next/font/google";
+import { merriweather } from "@/lib/merriweather-font";
 import Features from "@/components/features";
-
-export const merriweather = Merriweather({
-  subsets: ["latin"],
-  display: "swap",
-  style: ["normal", "italic"],
-  weight: ["300", "400", "700", "900"],
-});
 
 export default function Home() {
   return (

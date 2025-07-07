@@ -1,16 +1,9 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Merriweather } from "next/font/google";
+import { merriweather } from "@/lib/merriweather-font";
 import BentoGridDemo from "./bento-grid-demo";
 import { useScrollAnimation } from "@/hooks/use-gsap";
-
-const merriweather = Merriweather({
-  subsets: ["latin"],
-  display: "swap",
-  style: ["normal", "italic"],
-  weight: ["300", "400", "700", "900"],
-});
 
 function Benefits() {
   const titleRef = useScrollAnimation({

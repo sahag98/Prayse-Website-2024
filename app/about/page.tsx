@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import { merriweather } from "../page";
+import { merriweather } from "@/lib/merriweather-font";
 import { MarqueeDemo } from "@/components/verse-scroll";
 import { Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";

@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
-import { merriweather } from "@/app/page";
+import { merriweather } from "@/lib/merriweather-font";
 
 const reviews = [
   {
