@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { Merriweather } from "next/font/google";
-import Image from "next/image";
 import BentoGridDemo from "./bento-grid-demo";
 import { useScrollAnimation } from "@/hooks/use-gsap";
 

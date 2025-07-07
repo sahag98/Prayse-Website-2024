@@ -1,19 +1,12 @@
 "use client";
 
-import { cn } from "@/lib/utils";
-import React, { useEffect, useRef } from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import {
-  IconArrowWaveRightUp,
-  IconBoxAlignRightFilled,
-  IconBoxAlignTopLeft,
   IconClipboardCopy,
   IconFileBroken,
   IconSignature,
-  IconTableColumn,
 } from "@tabler/icons-react";
 import { useStaggerAnimation } from "@/hooks/use-gsap";
-import Image from "next/image";
 
 export default function BentoGridDemo() {
   const gridRef = useStaggerAnimation(".bento-grid-item", {
@@ -30,7 +23,6 @@ export default function BentoGridDemo() {
             title={item.title}
             description={item.description}
             image={item.image}
-            icon={item.icon}
             className={`bento-grid-item ${
               i === 2 || i === 6 ? "md:col-span-2 col-span-1" : ""
             }`}

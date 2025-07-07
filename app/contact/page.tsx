@@ -5,7 +5,6 @@ import ContactForm from "./contact-form";
 import { merriweather } from "../page";
 import { cn } from "@/lib/utils";
 import { Instagram, MailCheck } from "lucide-react";
-import Link from "next/link";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

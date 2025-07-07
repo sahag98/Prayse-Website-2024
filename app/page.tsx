@@ -1,9 +1,7 @@
 import DownloadCTA from "@/components/download-cta";
 import Hero from "@/components/hero";
 import Benefits from "@/components/benefits";
-import Section from "@/components/section";
 import { Merriweather } from "next/font/google";
-import { cn } from "@/lib/utils";
 import Features from "@/components/features";
 
 export const merriweather = Merriweather({
