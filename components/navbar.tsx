@@ -24,15 +24,19 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <header
       className={`inset-x-0 fixed top-0 justify-between z-30 flex transition-all items-center py-11 lg:px-24 md:px-16 sm:px-7 px-4 h-16 ${
         isScrolled
-          ? "bg-opacity-25 backdrop-filter border-b backdrop-blur-sm"
-          : "bg-opacity-25 backdrop-filter backdrop-blur-sm"
+          ? "bg-opacity-25 backdrop-filter border-b backdrop-blur-md"
+          : "bg-opacity-25 backdrop-filter backdrop-blur-md"
       }`}
     >
-      <Link href={"/"} className="flex cursor-pointer items-center gap-1">
+      <Link
+        href={"/"}
+        className="flex cursor-pointer items-center gap-1 hover:scale-105 transition-transform duration-200"
+      >
         <Image
           src={"/prayse-logo.png"}
           width={500}
@@ -43,18 +47,23 @@ const Navbar = () => {
         <h1 className="font-bold text-lg">Prayse</h1>
       </Link>
       <ul className="md:flex hidden items-center justify-evenly w-full">
+        <Link href={"/"}>
+          <li className="cursor-pointer text-sm transition-all hover:font-medium hover:scale-105 transform duration-200">
+            Home
+          </li>
+        </Link>
         <Link href={"/about"}>
-          <li className="cursor-pointer text-sm transition-all hover:font-medium">
+          <li className="cursor-pointer text-sm transition-all hover:font-medium hover:scale-105 transform duration-200">
             About
           </li>
         </Link>
         <Link href={"https://shop.prayse.app"} target="_blank">
-          <li className="cursor-pointer  text-sm transition-all hover:font-medium">
+          <li className="cursor-pointer  text-sm transition-all hover:font-medium hover:scale-105 transform duration-200">
             Shop
           </li>
         </Link>
         <Link href={"/contact"}>
-          <li className="cursor-pointer text-sm transition-all hover:font-medium">
+          <li className="cursor-pointer text-sm transition-all hover:font-medium hover:scale-105 transform duration-200">
             Contact
           </li>
         </Link>
@@ -67,7 +76,7 @@ const Navbar = () => {
       <Link href={"/support"} className="md:flex hidden">
         <Button
           variant={"secondary"}
-          className="text-base gap-2 py-5 rounded-lg"
+          className="text-base gap-2 py-5 rounded-lg hover:scale-105 transition-transform duration-200"
         >
           Support <Heart />
         </Button>

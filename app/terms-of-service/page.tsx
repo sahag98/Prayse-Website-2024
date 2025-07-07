@@ -2,7 +2,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="lg:px-24 md:px-16 space-y-1 leading-7 sm:px-7 px-4 mt-32">
+    <div className="container-standard space-y-1 leading-7 mt-32">
       <h2>Terms of Service provided by Termly</h2>
       <span>Last updated September 17, 2024</span>
       <h1>AGREEMENT TO OUR LEGAL TERMS</h1>

@@ -1,40 +1,33 @@
 import DownloadCTA from "@/components/download-cta";
 import Hero from "@/components/hero";
-import Intro from "@/components/intro";
+import Benefits from "@/components/benefits";
 import Section from "@/components/section";
+import { Merriweather } from "next/font/google";
+import { cn } from "@/lib/utils";
+import Features from "@/components/features";
+
+export const merriweather = Merriweather({
+  subsets: ["latin"],
+  display: "swap",
+  style: ["normal", "italic"],
+  weight: ["300", "400", "700", "900"],
+});
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      <Hero />
-      <Intro />
-      <Section
-        title="Create Prayer Lists"
-        className="text-[#2f2d51]"
-        description=" Easily organize your prayers in one place. Add, edit, and manage your
-          prayer requests effortlessly, ensuring you never forget to pray for
-          someone or something important."
-        imageUrl="/prayerlist.jpeg"
-      />
-      <Section
-        title="Setup Reminders"
-        description="Stay consistent with your prayer life by setting customizable reminders. Get gentle nudges to pray throughout your day, tailored to your schedule."
-        className={"bg-blue-50 text-[#2f2d51] md:flex-row-reverse"}
-        imageUrl="/reminder.jpeg"
-      />
-      <Section
-        title="Take a Moment and Pray"
-        description="Find peace in the moment with a dedicated prayer space. Pause, reflect, and connect spiritually through our guided prayer prompts."
-        className={"text-[#2f2d51]"}
-        imageUrl="/takeamoment.jpg"
-      />
-      <Section
-        title="Read the Daily Verse"
-        description="Start your day inspired by Scripture. Discover a handpicked Bible verse each day to uplift and encourage your faith journey."
-        imageUrl="/verse.jpeg"
-        className="md:flex-row-reverse bg-blue-50 text-[#2f2d51]"
-      />
-      <DownloadCTA />
+    <div>
+      <div className="container-standard">
+        <Hero />
+        <div className="md:py-16 py-10">
+          <Benefits />
+        </div>
+      </div>
+      <div className="md:py-16 py-10">
+        <Features />
+      </div>
+      <div className="md:py-16 py-10 container-standard">
+        <DownloadCTA />
+      </div>
     </div>
   );
 }

@@ -1,17 +1,128 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { merriweather } from "../page";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const SupportPage = () => {
+  const headerRef = useRef<HTMLHeadingElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const buttonsRef = useRef<HTMLElement>(null);
+  const fundsRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Header animation
+    if (headerRef.current) {
+      gsap.fromTo(
+        headerRef.current,
+        { opacity: 0, y: 50 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.8,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: headerRef.current,
+            start: "top 80%",
+            end: "bottom 20%",
+            toggleActions: "play none none reverse",
+          },
+        }
+      );
+    }
+
+    // Content animation
+    if (contentRef.current) {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: contentRef.current,
+          start: "top 80%",
+          end: "bottom 20%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      const contentElements = contentRef.current.querySelectorAll("p");
+      tl.fromTo(
+        contentElements,
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power2.out" }
+      );
+    }
+
+    // Buttons animation
+    if (buttonsRef.current) {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: buttonsRef.current,
+          start: "top 80%",
+          end: "bottom 20%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      const buttons = buttonsRef.current.querySelectorAll("button");
+      tl.fromTo(
+        buttons,
+        { opacity: 0, y: 30, scale: 0.9 },
+        {
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          duration: 0.6,
+          stagger: 0.1,
+          ease: "power2.out",
+        }
+      );
+    }
+
+    // Funds section animation
+    if (fundsRef.current) {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: fundsRef.current,
+          start: "top 80%",
+          end: "bottom 20%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      const fundsElements = fundsRef.current.querySelectorAll("h2, h3, ul, p");
+      tl.fromTo(
+        fundsElements,
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 0.6, stagger: 0.1, ease: "power2.out" }
+      );
+    }
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen my-24 lg:px-44 flex flex-col items-center md:px-36 sm:px-7 px-4">
-      <h1 className="text-5xl font-bold mb-3">Take Part</h1>
-      <div className="md:w-2/3 mt-5 flex flex-col gap-5">
+    <div className="container-standard min-h-screen mt-32 flex flex-col items-center">
+      <h1
+        ref={headerRef}
+        className={cn(
+          merriweather.className,
+          "md:text-4xl text-3xl italic text-primary font-bold mb-3"
+        )}
+      >
+        Take Part
+      </h1>
+      <div ref={contentRef} className="md:w-2/3 mt-5 flex flex-col gap-5">
         <p className="text-lg">
-          Praying is a privelege we as Christians have, but sometimes it&apos;s
-          taken for granted. Prayse&apos;s main mission is to re-elevate the
-          importance of praying and praising God despite the distractions in our
-          lives, and Prayse needs your help to achieve that.
+          Praying is a privelege we as Christians have, but sometimes taken for
+          granted. Prayse&apos;s main mission is to re-elevate the importance of
+          praying and praising God despite the distractions in our lives, and
+          Prayse needs your help to achieve that.
         </p>
         <p className="text-lg">
           As a team of two,We&apos;re blessed to work on Prayse and help people
@@ -21,13 +132,19 @@ const SupportPage = () => {
           focus on.
         </p>
 
-        <section className="gap-3 my-10 w-full flex md:flex-row flex-col items-center justify-center">
+        <section
+          ref={buttonsRef}
+          className="gap-3 my-10 w-full flex md:flex-row flex-col items-center justify-center"
+        >
           <Link
             href={"https://buymeacoffee.com/prayse"}
             className="md:w-1/2 w-full"
             target="_blank"
           >
-            <Button className="text-lg font-bold w-full py-7" size={"lg"}>
+            <Button
+              className="text-lg font-bold w-full py-7 hover:scale-105 transition-transform duration-200"
+              size={"lg"}
+            >
               One Time Donation
             </Button>
           </Link>
@@ -37,31 +154,38 @@ const SupportPage = () => {
             className="md:w-1/2 w-full"
             target="_blank"
           >
-            <Button className="text-lg font-bold w-full py-7" size={"lg"}>
+            <Button
+              className="text-lg font-bold w-full py-7 hover:scale-105 transition-transform duration-200"
+              size={"lg"}
+            >
               Monthly Donation
             </Button>
           </Link>
         </section>
-        <h2 className="text-4xl font-semibold">How will the funds be used?</h2>
-        <h3 className="text-lg">
-          The funds received through your contributions will be used to support
-          the following:
-        </h3>
-        <ul className="">
-          <li>- Development and maintenance of our app.</li>
-          <li>- Apple fees to keep Prayse on the App Store.</li>
-          <li>
-            - Effort to bring in more people that can help with the app, social
-            media, and merchandise.
-          </li>
-        </ul>
-        <p className="text-lg">
-          Thank you so much for your support and we pray that you would see the
-          fruits of your support through Prayse and through God&apos;s
-          blessings. If you are unable to support Prayse financially, you can
-          always support Prayse by just using our app, interacting with us on
-          our socials, and giving ideas to improve Prayse!
-        </p>
+        <div ref={fundsRef}>
+          <h2 className="text-4xl font-semibold">
+            How will the funds be used?
+          </h2>
+          <h3 className="text-lg">
+            The funds received through your contributions will be used to
+            support the following:
+          </h3>
+          <ul className="">
+            <li>- Development and maintenance of our app.</li>
+            <li>- Apple fees to keep Prayse on the App Store.</li>
+            <li>
+              - Effort to bring in more people that can help with the app,
+              social media, and merchandise.
+            </li>
+          </ul>
+          <p className="text-lg">
+            Thank you so much for your support and we pray that you would see
+            the fruits of your support through Prayse and through God&apos;s
+            blessings. If you are unable to support Prayse financially, you can
+            always support Prayse by just using our app, interacting with us on
+            our socials, and giving ideas to improve Prayse!
+          </p>
+        </div>
       </div>
 
       {/* <p>Hey there, my name is Sahag and I&apos;m the founder of Prayse.</p>
