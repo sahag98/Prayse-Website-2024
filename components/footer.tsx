@@ -120,11 +120,12 @@ const Footer = () => {
           href="https://startupfa.me/s/prayse?utm_source=prayse.app"
           target="_blank"
         >
-          <img
+          <Image
             src="https://startupfa.me/badges/featured-badge-small.webp"
             alt="Prayse - Take a moment and pray | Startup Fame"
-            width="224"
-            height="36"
+            width={224}
+            height={36}
+            className="w-auto h-auto"
           />
         </a>
         <span>© 2025 Prayse. All rights reserved.</span>

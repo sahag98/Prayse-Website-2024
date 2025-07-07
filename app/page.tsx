@@ -1,7 +1,6 @@
 import DownloadCTA from "@/components/download-cta";
 import Hero from "@/components/hero";
 import Benefits from "@/components/benefits";
-import { merriweather } from "@/lib/merriweather-font";
 import Features from "@/components/features";
 
 export default function Home() {
