@@ -163,14 +163,19 @@ const SupportPage = () => {
           </Link>
         </section>
         <div ref={fundsRef}>
-          <h2 className="text-4xl font-semibold">
+          <h2
+            className={cn(
+              merriweather.className,
+              "md:text-3xl text-2xl italic text-primary font-semibold mb-3"
+            )}
+          >
             How will the funds be used?
           </h2>
-          <h3 className="text-lg">
+          <h3 className="text-lg font-medium mb-2">
             The funds received through your contributions will be used to
             support the following:
           </h3>
-          <ul className="">
+          <ul className="space-y-2 mb-2">
             <li>- Development and maintenance of our app.</li>
             <li>- Apple fees to keep Prayse on the App Store.</li>
             <li>

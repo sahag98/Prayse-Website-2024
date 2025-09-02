@@ -50,10 +50,16 @@ const Features = () => {
         imageUrl="/prayer-room.png"
       />
       <Section
+        title="Journal your prayers"
+        description="Record your prayers, and thoughts for further reflection and connection with God."
+        imageUrl="/mockup-journal.png"
+        className="md:flex-row-reverse md:text-left text-center container-standard bg-blue-50 text-primary"
+      />
+      <Section
         title="Read the Daily Verse"
         description="Start your day inspired by Scripture. Discover a handpicked Bible verse each day to uplift and encourage your faith journey."
         imageUrl="/verse.png"
-        className="md:flex-row-reverse md:text-left text-center container-standard bg-blue-50 text-primary"
+        className={"text-primary md:text-left text-center container-standard"}
       />
     </div>
   );

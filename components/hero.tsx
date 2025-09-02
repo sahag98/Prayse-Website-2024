@@ -66,7 +66,7 @@ const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="py-24 flex md:flex-row flex-col gap-10 items-center w-full"
+      className="pt-32  flex md:flex-row flex-col gap-10 items-center w-full"
     >
       <div className="bg-blue-50 md:flex-row flex-col w-full min-h-full md:p-10 py-10 px-5 flex items-center justify-center gap-10 rounded-2xl">
         <div
@@ -149,7 +149,7 @@ const Hero = () => {
           className="flex items-center h-full justify-center flex-1"
         >
           <Image
-            src={"/mockup.png"}
+            src={"/mockup-home.png"}
             alt="Prayse home screen"
             className="md:w-[300px] w-3/4 md:flex shadow-xl shadow-gray-200 rounded-2xl"
             width={1179}
